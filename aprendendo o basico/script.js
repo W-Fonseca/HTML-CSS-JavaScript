@@ -1,3 +1,4 @@
-function contamais(valor) {	
-document.getElementById("exemplo").innerHTML = "Hello world!" + int(valor);
+function contamais(valor) {
+var soma = valor.value * 2 	
+document.getElementById("exemplo").innerHTML = "Hello world!" + soma;
 }
